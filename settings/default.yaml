@@ -1,0 +1,38 @@
+img_data_dir: "/data/1.Dataset/1.원천데이터"
+json_data_dir: "/data/1.Dataset/2.라벨링데이터"
+train_data_list_file: "assets/train.txt"
+valid_data_list_file: "assets/valid.txt"
+test_data_list_file: "assets/test.txt"
+pretrained_path: ""
+token_path: "assets/token.pkl"
+weight_path: "weights"
+
+# Training Parameters
+epochs: 20
+batch_size: 4
+inference: False
+
+# Image Parameters
+input_size: [512, 512]
+output_size: [128, 128]
+crop_size: 512
+crop_ratio: 0.5
+
+# Model Parameter
+nof_joints: 5
+channel: 32
+bn_momentum: 0.1
+input_channel: 1
+
+# Optimizer configurations
+optimizer: "AdamW"
+lr: 0.0005
+scheduler: "CustomCosineAnnealingWarmupRestarts"
+scheduler_interval: "step"
+scheduler_param:
+  first_cycle_steps: 2000
+  cycle_mult: 2
+  max_lr: 0.0005
+  min_lr: 0.000025
+  warmup_steps: 500
+  gamma: 0.707
