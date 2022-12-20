@@ -6,7 +6,11 @@ Training and Validation parts are changed to pytorch-lightning.
 
 Also, adding last layer(Classifier) for classifying.
 
-Best F1-score is 0.75 ( Iou threshold >= 0.8 ) Precision : 0.91, Recall : 0.67
+Best F1-score is **0.75** ( Iou threshold >= 0.8 ) Precision : 0.91, Recall : 0.67
+
+Data Link V2021 <a href="https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=603">[link]</a>
+
+This model is trained by **2022 Dataset**. But, not yet opened.
 
 # Data Architecture
 ```
@@ -24,6 +28,8 @@ Best F1-score is 0.75 ( Iou threshold >= 0.8 ) Precision : 0.91, Recall : 0.67
 |      |       |     |ㅡㅡ ...
 |      |       |ㅡㅡ Book Name(완규유집_02)
 |      |       |     |ㅡㅡ ...
+
+
 
 ```
 
