@@ -10,7 +10,9 @@ Best F1-score is **0.75** ( Iou threshold >= 0.8 ) Precision : 0.91, Recall : 0.
 
 Data Link V2021 <a href="https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=603">[link]</a>
 
-This model is trained by **2022 Dataset**. But, not yet opened.
+Data Link V2022 <a href="https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71294">[link]</a>
+
+This model is trained on **2022 Dataset**.
 
 # Data Architecture
 ```
